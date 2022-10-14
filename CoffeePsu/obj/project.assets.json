@@ -98,6 +98,19 @@
         "runtime": {
           "bin/placeholder/CoffeePsu.Domain.Contracts.dll": {}
         }
+      },
+      "CoffeePsu.Domain.Implemntations/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CoffeePsu.Domain.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CoffeePsu.Domain.Implemntations.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoffeePsu.Domain.Implemntations.dll": {}
+        }
       }
     }
   },
@@ -231,11 +244,17 @@
       "type": "project",
       "path": "../CoffeePsu.Domain/CoffeePsu.Domain.Contracts.csproj",
       "msbuildProject": "../CoffeePsu.Domain/CoffeePsu.Domain.Contracts.csproj"
+    },
+    "CoffeePsu.Domain.Implemntations/1.0.0": {
+      "type": "project",
+      "path": "../CoffeePsu.Domain.Implemntations/CoffeePsu.Domain.Implemntations.csproj",
+      "msbuildProject": "../CoffeePsu.Domain.Implemntations/CoffeePsu.Domain.Implemntations.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "CoffeePsu.Domain.Contracts >= 1.0.0",
+      "CoffeePsu.Domain.Implemntations >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -266,6 +285,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Sharp\\CoffeePsu\\CoffeePsu.Domain.Implemntations\\CoffeePsu.Domain.Implemntations.csproj": {
+              "projectPath": "C:\\Sharp\\CoffeePsu\\CoffeePsu.Domain.Implemntations\\CoffeePsu.Domain.Implemntations.csproj"
+            },
             "C:\\Sharp\\CoffeePsu\\CoffeePsu.Domain\\CoffeePsu.Domain.Contracts.csproj": {
               "projectPath": "C:\\Sharp\\CoffeePsu\\CoffeePsu.Domain\\CoffeePsu.Domain.Contracts.csproj"
             }

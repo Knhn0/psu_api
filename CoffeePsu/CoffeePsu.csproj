@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CoffeePsu.Domain.Implemntations\CoffeePsu.Domain.Implemntations.csproj" />
     <ProjectReference Include="..\CoffeePsu.Domain\CoffeePsu.Domain.Contracts.csproj" />
   </ItemGroup>
 

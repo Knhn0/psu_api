@@ -27,3 +27,5 @@ C:\Sharp\CoffeePsu\CoffeePsu\obj\Debug\net6.0\CoffeePsu.genruntimeconfig.cache
 C:\Sharp\CoffeePsu\CoffeePsu\obj\Debug\net6.0\ref\CoffeePsu.dll
 C:\Sharp\CoffeePsu\CoffeePsu\bin\Debug\net6.0\CoffeePsu.Domain.Contracts.dll
 C:\Sharp\CoffeePsu\CoffeePsu\bin\Debug\net6.0\CoffeePsu.Domain.Contracts.pdb
+C:\Sharp\CoffeePsu\CoffeePsu\bin\Debug\net6.0\CoffeePsu.Domain.Implemntations.dll
+C:\Sharp\CoffeePsu\CoffeePsu\bin\Debug\net6.0\CoffeePsu.Domain.Implemntations.pdb

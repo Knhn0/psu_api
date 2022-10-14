@@ -1,28 +1,31 @@
 ﻿using CoffeePsu.Domain.Contracts;
 using CoffeePsu.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Reflection.Metadata.Ecma335;
 
 namespace CoffeePsu.Controllers
 {
     public class OrderController : BaseController
     {
         private readonly IOrderService _orderService;
+
         public OrderController(IOrderService orderService)
         {
             _orderService = orderService;
         }
+
+
         [HttpGet]
-        public IEnumerable<OrderModel> Get(OrderModel order)
+        public IEnumerable<string> Get()
         {
-            return (IEnumerable<OrderModel>)order;
+            return new string[] { "This is terminal for Coffee" };
         }
 
-        /*[HttpGet]
-        [ActionName("Get Id")]
-        public IEnumerable<OrderModel> Get(OrderModel order)
+        [HttpGet("{id}")]
+        public ActionResult GetId(int id)
         {
-            
-        }*/
+            return Ok($"Coffee Id is {id}");
+        }
 
         [HttpPost]
         public ActionResult Post(OrderModel order)
